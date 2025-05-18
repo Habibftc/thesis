@@ -33,7 +33,8 @@ def show_about_me_sidebar():
 
         # Use st.image() instead of HTML img tag
         try:
-            st.image(r"D:\gradu thesis chatbot\image\habib.jpg", width=300)  # Reduced width for sidebar
+            st.image("images/habib.jpg", width=300)
+  # Reduced width for sidebar
         except FileNotFoundError:
             st.error("Image not found at specified path")
 
