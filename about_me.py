@@ -32,11 +32,7 @@ def show_about_me_sidebar():
         st.markdown('<div class="footer-title">👨🏻 About Developer</div>', unsafe_allow_html=True)
 
         # Use st.image() instead of HTML img tag
-        try:
-            st.image("images/habib.jpg", width=300)
-  # Reduced width for sidebar
-        except FileNotFoundError:
-            st.error("Image not found at specified path")
+      
 
         st.markdown("""
         <div class="footer-text"> <strong>Name: Mohammed Habibul Bashar</strong> <br> 
