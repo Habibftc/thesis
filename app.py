@@ -318,7 +318,6 @@ elif mode == "🎙️ Voice Chat":
         save_chat_history(st.session_state.messages)
 
 
-show_about_me_sidebar()
 # Add footer
 st.markdown("---")
 st.markdown(
